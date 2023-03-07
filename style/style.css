@@ -6,22 +6,23 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    
 }
 main{
     margin: 0 auto;
-    max-width: 2500px;
+    max-width: 2000px;
 }
 
 .section-one{
     background-image: url(..///img/section1/section-one-background.jpg);
     height: 1000px;
-    width: 100%;
+    max-width: 2000px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    background-position: center;
     align-items: center;
     justify-content: center;
+    
 }
 .section-one-text{
     display: flex;
@@ -29,7 +30,8 @@ main{
     justify-content: space-evenly;
     flex-direction: column; 
     color: white;
-    transform: translateY(100%);
+    
+    
 }
 .section-one-text h1{
     font-weight: 300;
@@ -48,7 +50,7 @@ main{
 }
 .section-one-text span{
     width: 40%;
-    margin: 20px auto;
+    margin: 4% auto;
     height: 1px;
     background-color: white;
    
@@ -67,7 +69,7 @@ main{
 .flex-images{
     margin-top: 3%;
     display: flex;
-    gap: 0.6%;
+    gap: 2%;
 }
 .flex-images-item{
     position: relative;
@@ -124,7 +126,7 @@ main{
 }
 
 input {
-    width: 494px;
+    width: 26%;
     height: 50px;
     background-color: white;
     border: solid 2px #9c9797;
@@ -135,7 +137,7 @@ input {
 }
 
 .btn2 {
-    width: 500px;
+    width: 26%;
     height: 50px;
     background-color: #E0BEA2;
     border: solid 2px #E0BEA2;
@@ -176,13 +178,16 @@ input {
 
 footer{
     display: flex;
-    gap: 100px;
-    justify-content: center;
-    margin-top: 100px;
-    height: 200px;
+    justify-content: space-between;
+    margin: 6% auto 3%;
+    height: fit-content;
+    max-width: 1150px;
 }
 footer div{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
+
+
