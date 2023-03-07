@@ -1,0 +1,14 @@
+.wrap{
+    width: 100%;
+    height: 1000px;
+}
+
+
+
+.hed{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
