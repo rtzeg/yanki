@@ -1,14 +1,29 @@
-.wrap{
-    width: 100%;
-    height: 1000px;
-}
+      
 
 
 
 .hed{
-    width: 80%;
-    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    align-items: center;
+
+}
+.navbar{
+    width: 20%;
+}
+.ul5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.imgbox{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.sele{
+    border: none;
+    background: none;
+
 }
