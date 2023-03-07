@@ -1,29 +1,59 @@
-      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
 
+@font-face {
+    font-family: raleway;
+    src: url(../font/Raleway-Regular.ttf);
+}
 
-
-.hed{
+.hed {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: black;
 
 }
-.navbar{
+
+.navbar {
     width: 20%;
 }
-.ul5{
-    width: 100%;
+
+.ul5 {
+    width: 80%;
     display: flex;
     justify-content: space-between;
+
 }
-.imgbox{
+
+.li5 a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: raleway;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.imgbox {
     width: 10%;
     display: flex;
     justify-content: space-between;
 }
-.sele{
-    border: none;
-    background: none;
+
+.sele {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
 
 }
