@@ -55,6 +55,10 @@
     color: white;
 
 }
+select{
+    font-size: 18px;
+    font-weight: 300;
+}
 main{
     margin: 0 auto;
     max-width: 2000px;
