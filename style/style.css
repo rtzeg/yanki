@@ -8,6 +8,7 @@
     text-decoration: none;
 }
 .hed{
+    max-width: 2000px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -15,6 +16,8 @@
     position: fixed;
     margin-top: 25px;
     z-index: 999;
+    left: 50%;
+    translate: -50%;
 }
 
 .navbar {
@@ -254,6 +257,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+.info-link{
+    color: #252525;
+}
 /* Текст для скрин ридеров */
 .foot .sr-only {
     border: 0;
@@ -341,10 +347,13 @@ align-items: center;
   }
   @media (min-width:1920px){
     .hed{
-        width: 2000px;
-        position:relative;
-        margin: 0 auto;
-        background-color: black;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        margin-top: 25px;
+        z-index: 999;
     }
     .foot{
         display: none;
