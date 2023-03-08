@@ -228,15 +228,267 @@ input {
     
 }
 
-footer{
+.fot{
     display: flex;
     justify-content: space-between;
     margin: 6% auto 3%;
     height: fit-content;
     max-width: 1150px;
 }
-footer div{
+.fot div{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.foot h2{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #252525;
+}
+.foot .contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* Текст для скрин ридеров */
+.foot .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+ .foot .menu {
+    max-width: 100%;
+    font-size: 1.3rem;
+  }
+  
+ .foot ul {
+    list-style: none;
+  }
+  
+.foot  li {
+    position: relative;
+    margin-bottom: 5px;
+  }
+  
+.foot  .sub-menu {
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+.foot  nav a {
+    display: block;
+    padding: 13px 15px;
+    background: white;
+    color: #252525;
+  }
+  
+  /* Убираем стандартный маркер Chrome */
+  .menu summary::-webkit-details-marker {
+    display: none;
+  }
+  /* Убираем стандартный маркер Firefox */
+  .menu summary {
+    list-style: none;
+  }
+  
+  .menu summary {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    background: white;
+    cursor: pointer;
+    color: #252525;
+  }
+  
+  .menu .sub-menu summary {
+    height: 46px;
+  }
+  
+  nav a:hover,
+  .menu summary:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #252525;
+  }
+  
+  .menu summary:before {
+    content: ">";
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: transform 0.2s;
+    will-change: transform;
+    rotate: 90deg;
+  }
+  
+  .menu details[open] > summary:before {
+    transform: rotate(180deg);
+  }
+  @media (min-width:1920px){
+    .hed{
+        width: 2000px;
+        position:relative;
+        margin: 0 auto;
+        background-color: black;
+    }
+    .foot{
+        display: none;
+    }
+    .hed1{
+        display: none;
+    }
+  }
+@media(max-width:1920px){
+    .hed1{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+}
+
+@media(max-width: 1300px){
+    .udalit1{
+        display: none;
+    }
+}
+@media (max-width: 1200px){
+    .section-one {
+        background-image: url(..///img/section1/section-one-background.jpg);
+        height: 800px;
+    }
+    footer {
+        justify-content: space-around;
+    }
+    .btn2 {
+        width: 35%;
+    }
+    input {
+        width: 35%;
+    }
+    .ul5 {
+        width: 100%;
+    }
+}
+@media(max-width:1100px){
+    .imgbox {
+        width: 20%;
+    }
+}
+@media(max-width: 1000px){
+    .section-one {
+        background-image: url(..///img/section1/section-one-background.jpg);
+        height: 650px;
+    }
+    input {
+        width: 40%;
+    }
+    .btn2 {
+        width: 40%;
+    }
+}
+@media(max-width: 910px){
+    .fot {
+        display: flex;
+        justify-content: space-around;
+    }
+    .udalit2{
+        display: none;
+    }
+    .li5 a {
+        font-size: 13px;
+    }
+    .poisk{
+        width: 18px;
+    }
+    .imgbox {
+        gap: 15px;
+    }
+}
+@media(max-width: 768px){
+    .poisk2{
+        display: none;
+    }
+    .hed{
+        display: none;
+    }
+    .hed1{
+        display: block;
+        display: flex;
+    }
+    .foot{
+        display: block;
+    }
+    .fot{
+        display: none;
+    }
+}
+@media(max-width: 590px){
+    input {
+        width: 70%;
+    }
+    .btn2 {
+        width: 70%;
+    }
+    .section-one {
+        background-image: url(../img/imgfooteradaptiv/Yanki\ \(51\)\ 1.jpg);
+        height: 850px;
+    }
+    .imgrazmer{
+        width: 165px;
+        height: 230px;
+    }
+    .imgrazmer2{
+        width: 165px;
+        height: 230px;
+    }
+    .images-item-text {
+        height: 35px;
+    }
+    .images-item-nav-right {
+        height: 30px;
+        width: 30px;
+    }
+}
+@media(max-width: 425px){
+    .imgyanki{
+        width: 70px;
+    }
+}
+@media (max-width: 375px){
+    .section-one-text h1 {
+        font-size: 35px;
+    }
+    .categories h2 {
+        font-size: 35px;
+    }
+    .imgrazmer {
+        width: 150px;
+        height: 230px;
+    }
+    .imgrazmer2 {
+        width: 150px;
+        height: 230px;
+    }
+    .glavtext {
+        font-size: 30px;
+    }
+    .p0 {
+        font-size: 14px;
+    }
 }
