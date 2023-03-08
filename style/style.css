@@ -7,6 +7,53 @@
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
+.hed {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+
+
+}
+
+.navbar {
+    width: 20%;
+}
+
+.ul5 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.li5 a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: raleway;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.imgbox {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sele {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+
+}
 main{
     margin: 0 auto;
     max-width: 2000px;
@@ -188,6 +235,3 @@ footer div{
     flex-direction: column;
     gap: 10px;
 }
-
-
-
