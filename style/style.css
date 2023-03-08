@@ -7,14 +7,14 @@
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
-.hed {
+.hed{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: transparent;
-
-
+    position: fixed;
+    margin-top: 25px;
+    z-index: 999;
 }
 
 .navbar {
@@ -27,14 +27,14 @@
     justify-content: space-between;
 
 }
+.li5{
+    list-style-type: none;
+}
 
 .li5 a {
-    list-style: none;
     text-decoration: none;
     color: white;
-    font-family: raleway;
     text-transform: uppercase;
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
@@ -44,11 +44,12 @@
     width: 10%;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .sele {
     text-align: center;
-    border: 1px solid black;
+    border: 0;
     border-radius: 50px;
     background-color: transparent;
     color: white;
